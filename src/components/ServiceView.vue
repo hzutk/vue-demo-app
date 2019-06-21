@@ -4,7 +4,7 @@
     <v-card>
       <v-toolbar dark color="primary">
 
-        <v-toolbar-title v-if="description">api {{description.title}}</v-toolbar-title>
+        <v-toolbar-title v-if="description">api response {{description.title}}</v-toolbar-title>
         <v-spacer></v-spacer>
         <v-btn icon dark @click="$emit('update:visibleDialog', false)">
           <v-icon>close</v-icon>
